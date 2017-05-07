@@ -1,0 +1,40 @@
+body {
+	background-color: yellow;
+	font: 16px verdana, sans-serif;
+	color: #666;
+}
+.container {
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+input {
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 5px;
+	border: 3px solid #eee;
+	height: 36px;
+	line-height: 30px;
+	padding: 0 10px;
+}
+input:focus {
+	outline: 0;
+	border-color: #ddd;
+}
+.input-box {
+	margin-bottom: 20px;
+}
+.item {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 10px;
+	background: linear-gradient(#fff, #eee);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.item span {
+	font-size: 80%;
+	font-family: cursive;
+	color: #000;
+}
